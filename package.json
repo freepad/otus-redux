@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.1.4",
+    "prettier": "^3.3.3",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
